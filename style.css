@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.body-container {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: #333;
+  line-height: 1.5em;
+}
+html,
+body,
+#app,
+.holder {
+  transition: background-color 0.5s;
+  height: 100%;
+}
+.holder h1 {
+  margin:auto;
+  line-height: 100vh;
+  text-align: center;
+  vertical-align:middle;
+}
